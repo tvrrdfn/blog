@@ -71,7 +71,6 @@ deploy:
   type: git
   repo: git@github.com:tvrrdfn/wei.git
   branch: master
-  message: [message]
 
 # Extensions
 Plugins:
