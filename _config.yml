@@ -72,3 +72,18 @@ deploy:
   repo: git@github.com:tvrrdfn/wei.git
   branch: master
   message: [message]
+
+# Extensions
+Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+#sitemap
+sitemap:
+  path: sitemap.xml
