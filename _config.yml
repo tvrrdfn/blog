@@ -68,6 +68,7 @@ theme: hexo-theme-next-5.1.1
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-type: git
-repo: git@github.com:tvrrdfn/wei.git
-branch: master
+  type: git
+  repo: git@github.com:tvrrdfn/wei.git
+  branch: master
+  message: [message]
